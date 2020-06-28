@@ -1,0 +1,22 @@
+{
+  "name": "my_first_node_project",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "lesson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node --experimental-modules ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.0",
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/joi": "^17.1.1",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "hapi-auth-bearer-token": "^6.1.6",
+    "uuid": "^8.1.0"
+  }
+}
